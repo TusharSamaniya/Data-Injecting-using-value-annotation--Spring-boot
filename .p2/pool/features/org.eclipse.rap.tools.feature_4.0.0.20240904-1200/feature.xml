@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.rap.tools.feature"
+      label="RAP Tools"
+      version="4.0.0.20240904-1200"
+      provider-name="Eclipse.org - RAP">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.pde.ui"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.ui.intro"/>
+      <import plugin="org.eclipse.ui.intro.universal"/>
+      <import plugin="org.eclipse.ui.cheatsheets"/>
+      <import plugin="org.eclipse.pde.core"/>
+      <import plugin="org.eclipse.ant.core"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.rap.doc"
+         download-size="4651"
+         install-size="18959"
+         version="4.0.0.20240621-0906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.intro"
+         download-size="45"
+         install-size="79"
+         version="4.0.0.20240621-0906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.intro.source"
+         download-size="35"
+         install-size="59"
+         version="4.0.0.20240621-0906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.templates"
+         download-size="73"
+         install-size="151"
+         version="4.0.0.20240821-1037"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.templates.source"
+         download-size="40"
+         install-size="99"
+         version="4.0.0.20240821-1037"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.launch"
+         download-size="69"
+         install-size="140"
+         version="4.0.0.20240731-1913"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.launch.source"
+         download-size="41"
+         install-size="103"
+         version="4.0.0.20240731-1913"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.launch.rwt"
+         download-size="133"
+         install-size="258"
+         version="4.0.0.20240621-0906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.tools.launch.rwt.source"
+         download-size="77"
+         install-size="178"
+         version="4.0.0.20240621-0906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="405"
+         install-size="811"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="314"
+         install-size="612"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="141"
+         install-size="289"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="598"
+         install-size="1274"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.ee8.servlet"
+         download-size="141"
+         install-size="302"
+         version="12.0.12"
+         unpack="false"/>
+
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="657"
+         install-size="1283"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util.ajax"
+         download-size="52"
+         install-size="97"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.ee8.webapp"
+         download-size="128"
+         install-size="296"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.xml"
+         download-size="79"
+         install-size="196"
+         version="12.0.12"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="67"
+         install-size="138"
+         version="2.0.16"
+         unpack="false"/>
+
+   <plugin
+         id="jakarta.servlet-api"
+         download-size="389"
+         install-size="1906"
+         version="6.1.0"
+         unpack="false"/>
+
+</feature>
